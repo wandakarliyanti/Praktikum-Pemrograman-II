@@ -24,10 +24,10 @@ public class PRAK104_2210817220034_WandaKarliyanti {
                     }
                     i+=2;
                 }
-                if(poinA>poinB) {
+                if(poinA>poinB){
                     System.out.print("Abu");
                 }
-                else if(poinB>poinA) {
+                else if(poinB>poinA){
                     System.out.print("Bagas");
                 }
                 else{
