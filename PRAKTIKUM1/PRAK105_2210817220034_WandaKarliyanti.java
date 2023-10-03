@@ -17,7 +17,5 @@ public class PRAK105_2210817220034_WandaKarliyanti {
         System.out.print("Volume tabung dengan jari-jari "+r+" cm ");
         System.out.print("dan tinggi "+t+" cm ");
         System.out.print("adalah "+volume+" m^3");
-
-
     }
 }
