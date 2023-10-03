@@ -12,22 +12,22 @@ public class PRAK104_2210817220034_WandaKarliyanti {
         bagas= input.nextLine().toUpperCase();
 
                 while(i<=abu.length()){
-                    if(abu.charAt(i)=='G' && bagas.charAt(i)=='B' ||
-                       abu.charAt(i)=='K' && bagas.charAt(i)=='G' ||
-                       abu.charAt(i)=='B' && bagas.charAt(i)=='K'){
-                       poinB++;
+                    if(abu.charAt(i)=='B' && bagas.charAt(i)=='G' ||
+                       abu.charAt(i)=='G' && bagas.charAt(i)=='K' ||
+                       abu.charAt(i)=='K' && bagas.charAt(i)=='B'){
+                       poinA++;
                     }
-                    else if(abu.charAt(i)=='B' && bagas.charAt(i)=='G' ||
-                            abu.charAt(i)=='G' && bagas.charAt(i)=='K' ||
-                            abu.charAt(i)=='K' && bagas.charAt(i)=='B'){
-                        poinA++;
+                    else if(abu.charAt(i)=='G' && bagas.charAt(i)=='B' ||
+                            abu.charAt(i)=='K' && bagas.charAt(i)=='G' ||
+                            abu.charAt(i)=='B' && bagas.charAt(i)=='K'){
+                        poinB++;
                     }
                     i+=2;
                 }
                 if(poinA>poinB){
                     System.out.print("Abu");
                 }
-                else if(poinB>poinA){
+                else if(poinA<poinB){
                     System.out.print("Bagas");
                 }
                 else{
