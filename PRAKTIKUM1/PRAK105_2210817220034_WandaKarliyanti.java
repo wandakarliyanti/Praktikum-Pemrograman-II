@@ -4,6 +4,7 @@ public class PRAK105_2210817220034_WandaKarliyanti {
     public static void main(String[]args){
         final double PI=3.14, V;
         float r, t;
+        String volume;
         Scanner input=new Scanner(System.in);
 
         System.out.print("Masukkan jari-jari: ");
@@ -12,7 +13,7 @@ public class PRAK105_2210817220034_WandaKarliyanti {
         t=input.nextFloat();
 
         V=PI*r*r*t;
-        String volume=String.format("%.3f", V);
+        volume=String.format("%.3f", V);
 
         System.out.print("Volume tabung dengan jari-jari "+r+" cm ");
         System.out.print("dan tinggi "+t+" cm ");
