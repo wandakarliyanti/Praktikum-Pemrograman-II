@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Soal3Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         String nama, nim, hapusNim, cariNim;
         int pilihan;
 
@@ -38,8 +38,8 @@ public class Soal3Main {
                     hapusNim=input.nextLine();
                     Mahasiswa hapusMahasiswa=null;
 
-                    for (Mahasiswa mahasiswa : listMahasiswa) {
-                        if (mahasiswa.getNim().equals(hapusNim)) {
+                    for (Mahasiswa mahasiswa : listMahasiswa){
+                        if (mahasiswa.getNim().equals(hapusNim)){
                             hapusMahasiswa=mahasiswa;
                             break;
                         }
