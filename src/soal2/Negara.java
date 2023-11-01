@@ -13,27 +13,27 @@ public class Negara {
         this.tahunKemerdekaan=tahunKemerdekaan;
     }
 
-    public String getNama() {
+    public String getNama(){
         return nama;
     }
 
-    public String getJenisKepemimpinan() {
+    public String getJenisKepemimpinan(){
         return jenisKepemimpinan;
     }
 
-    public String getNamaPemimpin() {
+    public String getNamaPemimpin(){
         return namaPemimpin;
     }
 
-    public Integer getTanggalKemerdekaan() {
+    public Integer getTanggalKemerdekaan(){
         return tanggalKemerdekaan;
     }
 
-    public Integer getBulanKemerdekaan() {
+    public Integer getBulanKemerdekaan(){
         return bulanKemerdekaan;
     }
 
-    public Integer getTahunKemerdekaan() {
+    public Integer getTahunKemerdekaan(){
         return tahunKemerdekaan;
     }
 }

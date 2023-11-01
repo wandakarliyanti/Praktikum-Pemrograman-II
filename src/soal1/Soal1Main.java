@@ -12,7 +12,7 @@ public class Soal1Main {
         jumlah=input.nextInt();
         LinkedList<Dadu> listDadu=new LinkedList<>();
 
-        for(i=0;i<jumlah;i++){
+        for (i=0;i<jumlah;i++){
             Dadu dadu=new Dadu();
             System.out.println("Dadu ke-"+(i+1)+" bernilai "+dadu.getNilai());
             jumlahNilai+=dadu.getNilai();

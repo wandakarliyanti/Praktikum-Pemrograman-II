@@ -72,7 +72,7 @@ public class Soal2Main {
             if (jenisKepemimpinan.equals("monarki")){
                 System.out.print("\n");
             }
-            else {
+            else{
                 System.out.println("Deklarasi Kemerdekaan pada Tanggal "+tanggalKemerdekaan+" "+namaBulan+" "+tahunKemerdekaan+"\n");
             }
         }
