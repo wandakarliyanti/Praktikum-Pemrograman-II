@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         String r = null;
         String n = null;
-        HewanPeliharaan HP = new HewanPeliharaan(null, null);
+        HewanPeliharaan HP = new HewanPeliharaan(r, n);
 
         HP.display();
     }

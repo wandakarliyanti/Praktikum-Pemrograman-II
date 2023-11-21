@@ -11,22 +11,19 @@ public class Main {
         System.out.print("Masukkan pilihan: ");
         int nomor = input.nextInt();
 
-        if (nomor==1){
+        if (nomor == 1) {
             String r = null;
             String n = null;
             String w = null;
             Kucing meow = new Kucing(r, n, w);
             meow.displayDetailKucing();
-        } else if (nomor==2) {
+        } else if (nomor == 2) {
             String r = null;
             String n = null;
             String w = null;
-            String [] k = null;
+            String[] k = null;
             Anjing guk = new Anjing(r, n, w, k);
             guk.displayDetailAnjing();
-        }
-        else {
-            System.out.println("Pilihan Tidak Valid!");
         }
     }
 }
