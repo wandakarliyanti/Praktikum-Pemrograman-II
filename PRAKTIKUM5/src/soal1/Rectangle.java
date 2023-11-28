@@ -1,6 +1,6 @@
 package soal1;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double length, width;
 
     public Rectangle (Double l, Double w){

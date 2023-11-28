@@ -1,6 +1,6 @@
 package soal1;
 
-public class Sphere extends Shape{
+public class Sphere extends Shape {
     private double radius;
 
     public Sphere (Double r){
