@@ -3,7 +3,7 @@ package soal1;
 public class Rectangle extends Shape {
     private double length, width;
 
-    public Rectangle (Double l, Double w){
+    public Rectangle (double l, double w){
         super("soal1.Sphere");
         this.length=l;
         this.width=w;
