@@ -20,6 +20,6 @@ public class PaintThings {
         System.out.println("\nNumber of gallons of paint needed...");
         System.out.println("Deck " + fmt.format(deckAmt));
         System.out.println("Big Ball " + fmt.format(ballAmt));
-        System.out.println("Tank " + fmt.format(tankAmt));
+        System.out.print("Tank " + fmt.format(tankAmt));
     }
 }
